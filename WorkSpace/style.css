@@ -1,0 +1,33 @@
+img {
+    display: block;
+    margin: 0px auto;
+}
+body {
+    background: white;
+    font-family:verdana, arial;
+}
+#title, .subtitle{
+    color: red;
+    font-family: 'Verdana, Arial';
+    margin: 0px auto;
+    text-align: center;
+    font-family:roboto, verdana, arial;
+}
+.post_title {
+    color:black;
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post {
+    padding: 10px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}

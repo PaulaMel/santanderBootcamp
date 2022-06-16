@@ -1,3 +1,20 @@
+.header{
+    background-color: white;
+}
+.flex-container{
+    display:flex;
+    max-width: 992px;
+    margin:10px;;
+}
+.flex-item{
+    background: rgb(212, 10, 10);
+    height: 70px;
+    width:max-content;
+    line-height:left;
+    font-size:24px;
+    color: white;
+    text-align: center;
+}
 img {
     display: block;
     margin: 0px auto;
@@ -8,12 +25,12 @@ body {
     width: 900px;
     margin: auto;
 }
-#title, .subtitle{
+.title, .subtitle{
     color: red;
     font-family: 'Verdana, Arial';
     margin: 0px auto;
     text-align: center;
-    font-family:roboto, verdana, arial;
+    font-family: 'roboto, verdana, arial';
 }
 .post_title {
     color:black;
@@ -37,4 +54,3 @@ body {
     list-style-type: none;
     padding-left: 20px;
 }
-box-model:
